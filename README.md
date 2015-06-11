@@ -8,15 +8,14 @@ _Forked from [Lucius](https://github.com/jonathanfilip/lucius-vim) by [jonathanf
 
 #### Options
 
-You can set the following options from the original [Lucius](https://github.com/jonathanfilip/lucius-vim) theme:
-* `g:lucius_no_term_bg` (default: `1`)
+* `g:candycrushchronicle_term_bg` (default: `1`)
  
-   Set a background color in the terminal
+   Don't use transparent background in terminal
 
-* `g:lucius_use_bold` (default: `1`)
+* `g:candycrushchronicle_use_bold` (default: `1`)
  
    Use bold fonts for some items.
  
-* `g:lucius_use_underline` (default: `1`)
+* `g:candycrushchronicle_use_underline` (default: `1`)
  
    Use underlined fonts for some items.

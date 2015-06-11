@@ -9,31 +9,19 @@
 "
 " Options:
 "
-" g:lucius_contrast  (default: 'normal')
+" g:candycrushchronicle_term_bg (default: 1)
 "
-" This option determines the contrast to use for text/ui elements. It can be
-" set to 'low', 'normal', or 'high'. At this time there is no 'high' for the
-" light scheme.
+" Setting this will cause the color scheme to set a background color in
+" the terminal.
 "
-" g:lucius_contrast_bg  (default: 'normal')
-"
-" Setting this option makes the background a higher contrast. Current settings
-" are 'normal' and 'high'.
-"
-" g:lucius_use_bold (default: 1)
+" g:candycrushchronicle_use_bold (default: 1)
 "
 " Setting this will cause the color scheme to use bold fonts for some items.
 "
-" g:lucius_use_underline (default: 1)
+" g:candycrushchronicle_use_underline (default: 1)
 "
 " Setting this will cause the color scheme to use underlined fonts for some
 " items.
-"
-" g:lucius_no_term_bg (default: 1)
-"
-" Setting this will cause the color scheme to not set a background color in
-" the terminal (useful for transparency or terminals with different background
-" colors).
 "
 " ============================================================================
 
@@ -48,22 +36,22 @@ unlet! g:colors_name
 ""    syntax reset
 "endif
 
-if exists("g:lucius_use_bold")
-    let s:use_bold = g:lucius_use_bold
+if exists("g:candycrushchronicle_use_bold")
+    let s:use_bold = g:candycrushchronicle_use_bold
 else
     let s:use_bold = 1
 endif
 
-if exists("g:lucius_use_underline")
-    let s:use_underline = g:lucius_use_underline
+if exists("g:candycrushchronicle_use_underline")
+    let s:use_underline = g:candycrushchronicle_use_underline
 else
     let s:use_underline = 1
 endif
 
-if exists("g:lucius_no_term_bg")
-    let s:no_term_bg = g:lucius_no_term_bg
+if exists("g:candycrushchronicle_term_bg")
+    let s:term_bg = g:candycrushchronicle_term_bg
 else
-    let s:no_term_bg = 1
+    let s:term_bg = 1
 endif
 
 
@@ -377,7 +365,7 @@ for s:item in s:undercurl_items
     call s:AddSpCterm(s:item)
 endfor
 
-if s:no_term_bg == 1
+if s:term_bg == 1
     hi Normal ctermbg=NONE
 endif
 
