@@ -221,7 +221,7 @@ hi Directory    guifg=#87af87
 hi Identifier   guifg=#5fd787
 hi PreProc      guifg=#ffd7ff
 hi Special      guifg=#af87ff
-hi Statement    guifg=#ff87d7 "#d787af
+hi Statement    guifg=#d787af "#ff87d7
 hi Title        guifg=#87d7ff
 hi Type         guifg=#af8787
     

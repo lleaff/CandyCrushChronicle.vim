@@ -24,9 +24,9 @@ Copy the content of `colors` in `~/.vim/colors/`
 
 ### Options
 
-* `g:candycrushchronicle_term_bg` (default: `1`)
+* `g:candycrushchronicle_term_bg` (default: `0`)
  
-   Don't use transparent background in terminal
+   Use transparent background in terminal.
 
 * `g:candycrushchronicle_use_bold` (default: `1`)
  
