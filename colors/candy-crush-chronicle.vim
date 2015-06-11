@@ -1,7 +1,7 @@
 " ============================================================================
 " Name:     Candy Crush Chronicle
 " Author:   lleaff
-" Version:  0.0.1
+" Version:  1.0.0
 " ============================================================================
 "  Forked from:
 "  Lucius vim color scheme (8.1.7) by Jonathan Filip <jfilip1024@gmail.com>
@@ -29,7 +29,7 @@
 " Setting this will cause the color scheme to use underlined fonts for some
 " items.
 "
-" g:lucius_no_term_bg (default: 0)
+" g:lucius_no_term_bg (default: 1)
 "
 " Setting this will cause the color scheme to not set a background color in
 " the terminal (useful for transparency or terminals with different background
@@ -63,7 +63,7 @@ endif
 if exists("g:lucius_no_term_bg")
     let s:no_term_bg = g:lucius_no_term_bg
 else
-    let s:no_term_bg = 0
+    let s:no_term_bg = 1
 endif
 
 
@@ -377,11 +377,9 @@ for s:item in s:undercurl_items
     call s:AddSpCterm(s:item)
 endfor
 
-" Always leave Normal untouched
-"if s:no_term_bg == 1
+if s:no_term_bg == 1
     hi Normal ctermbg=NONE
-    "hi Normal ctermfg=NONE
-"endif
+endif
 
 
 " ============================================================================
