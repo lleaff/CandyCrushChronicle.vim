@@ -6,7 +6,23 @@ A Vim colorscheme for 256 colors terminal and GUI
 
 _Forked from [Lucius](https://github.com/jonathanfilip/lucius-vim) by [jonathanfilip](https://github.com/jonathanfilip)_
 
-#### Options
+### Installation  
+
+###### Using Vundle:
+
+Add this to your `.vimrc`:  
+
+    Plugin 'lleaff/candy-crush-chronicle.vim'
+    ...
+    colorscheme candy-crush-chronicle
+
+Then run `vim +PluginInstall +qall`  
+
+###### Manual:
+
+Copy the content of `colors` in `~/.vim/colors/`
+
+### Options
 
 * `g:candycrushchronicle_term_bg` (default: `1`)
  
