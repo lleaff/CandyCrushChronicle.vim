@@ -222,7 +222,7 @@ hi Identifier   guifg=#5fd787
 hi PreProc      guifg=#ffd7ff
 hi Special      guifg=#af87ff
 hi Statement    guifg=#ff87d7 "#d787af
-hi Title        guifg=#00afd7
+hi Title        guifg=#87d7ff
 hi Type         guifg=#af8787
     
 " ----------------------------------------------------------------------------
@@ -285,7 +285,7 @@ hi VertSplit    guifg=#121212
 hi WildMenu                     guibg=#5f00ff
 hi FoldColumn   guifg=#a8a8a8
 hi Folded       guifg=#a8a8a8
-hi Pmenu                        guibg=#121212
+hi Pmenu        guifg=#626262   guibg=#121212
 hi PmenuSbar    guifg=#121212   guibg=#bcbcbc
 hi PmenuThumb                   guibg=#585858
 hi SignColumn   guifg=#121212
