@@ -51,7 +51,7 @@ endif
 if exists("g:candycrushchronicle_term_bg")
     let s:term_bg = g:candycrushchronicle_term_bg
 else
-    let s:term_bg = 1
+    let s:term_bg = 0
 endif
 
 
@@ -278,7 +278,6 @@ hi FoldColumn                   guibg=#4e4e4e
 hi Folded                       guibg=#4e4e4e
 hi LineNr       guifg=#626262   guibg=#121212
 hi PmenuSel                     guibg=#5f00ff
-hi SignColumn                   guibg=#4e4e4e
 hi StatusLineNC guifg=#4e4e4e
 hi TabLineFill  guifg=#4e4e4e
 hi VertSplit    guifg=#121212
@@ -288,7 +287,7 @@ hi Folded       guifg=#a8a8a8
 hi Pmenu        guifg=#626262   guibg=#121212
 hi PmenuSbar    guifg=#121212   guibg=#bcbcbc
 hi PmenuThumb                   guibg=#585858
-hi SignColumn   guifg=#121212
+hi SignColumn                   guifg=#121212
 hi StatusLine   guifg=#767676   guibg=#121212
 hi StatusLineNC guifg=#767676   guibg=#262626
 hi TabLine      guifg=#767676   guibg=#262626
@@ -365,7 +364,7 @@ for s:item in s:undercurl_items
     call s:AddSpCterm(s:item)
 endfor
 
-if s:term_bg == 1
+if s:term_bg == 0
     hi Normal ctermbg=NONE
 endif
 
