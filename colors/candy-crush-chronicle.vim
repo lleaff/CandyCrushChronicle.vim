@@ -287,7 +287,7 @@ hi Folded       guifg=#a8a8a8
 hi Pmenu        guifg=#626262   guibg=#121212
 hi PmenuSbar    guifg=#121212   guibg=#bcbcbc
 hi PmenuThumb                   guibg=#585858
-hi SignColumn                   guifg=#121212
+hi SignColumn                   guibg=#121212
 hi StatusLine   guifg=#767676   guibg=#121212
 hi StatusLineNC guifg=#767676   guibg=#262626
 hi TabLine      guifg=#767676   guibg=#262626
