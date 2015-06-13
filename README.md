@@ -2,7 +2,7 @@ Candy Crush Chronicle
 ==========
 A Vim colorscheme for 256 colors terminal and GUI
 
-![screenshot](https://raw.githubusercontent.com/lleaff/CandyCrushChronicle.vim/resources/candycrushchronicle_screenshot01-500.png)
+![screenshot](https://github.com/lleaff/candy-crush-chronicle.vim/blob/resources/candycrushchronicle_screenshot02.png?raw=true)
 
 _Forked from [Lucius](https://github.com/jonathanfilip/lucius-vim) by [jonathanfilip](https://github.com/jonathanfilip)_
 
@@ -10,17 +10,21 @@ _Forked from [Lucius](https://github.com/jonathanfilip/lucius-vim) by [jonathanf
 
 ###### Using Vundle:
 
-Add this to your `.vimrc`:  
+Add this line to your `.vimrc`:  
 
     Plugin 'lleaff/candy-crush-chronicle.vim'
-    ...
-    colorscheme candy-crush-chronicle
 
 Then run `vim +PluginInstall +qall`  
 
 ###### Manual:
 
 Copy the content of `colors` in `~/.vim/colors/`
+
+###### Usage
+
+    colorscheme candy-crush-chronicle
+	" Options:
+    let g:candycrushchronicle_term_bg = 1
 
 ### Options
 
