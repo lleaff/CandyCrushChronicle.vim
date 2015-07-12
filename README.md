@@ -4,7 +4,7 @@ A Vim colorscheme for 256 colors terminal and GUI
 
 ![screenshot](https://github.com/lleaff/candy-crush-chronicle.vim/blob/resources/candycrushchronicle_screenshot02.png?raw=true)
 
-_Forked from [Lucius](https://github.com/jonathanfilip/lucius-vim) by [jonathanfilip](https://github.com/jonathanfilip)_
+_Forked from [Lucius](https://github.com/jonathanfilip/vim-lucius) by [jonathanfilip](https://github.com/jonathanfilip)_
 
 ### Installation  
 
